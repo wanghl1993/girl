@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /girl
+  tomcat:
+    min-spare-threads: 20
+    max-threads: 100
+    connection-timeout: 5000
+
+girl:
+  cupSize: B
+  age: 18
+#content: "cupSize:${cupSize},age:${age}"

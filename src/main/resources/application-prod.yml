@@ -1,0 +1,21 @@
+#spring:
+#  datasource:
+#    ucds:
+#      jdbcUrl: jdbc:mysql://10.130.29.22:3306/portaldb
+#      user: ucds
+#      password: ucds
+#      driverClass: com.mysql.jdbc.Driver
+#      initialPollSize: 10
+#      maxIdleTime: 30
+
+
+
+
+
+server:
+  port: 8081
+  context-path: /girl
+girl:
+  cupSize: F
+  age: 18
+content: "cupSize:${cupSize},age:${age}"

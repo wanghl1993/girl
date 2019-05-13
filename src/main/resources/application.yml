@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/dbgirl
+      username: root
+      password: root
+#  jpa:
+#      hibernate:
+#        ddl-auto: update
+#      show-sql: true
+server:
+  port: 8080
+#  context-path: /girl
+#girl:
+#  cupSize: B
+#  age: 18
+#content: "cupSize:${cupSize},age:${age}"
